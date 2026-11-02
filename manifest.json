@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "拾光 Little Moments",
+  "version": "1.0.0",
+  "description": "记录生活中微小而美好的瞬间。",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "拾光"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}

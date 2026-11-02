@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>拾光</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="popup">
+  <main class="container">
+    <header class="header">
+      <div class="brand">
+        <span class="logo">✿</span>
+        <span>拾光</span>
+      </div>
+      <span class="english">LITTLE MOMENTS</span>
+    </header>
+
+    <section class="welcome">
+      <h1>今天，也要好好生活。</h1>
+      <p>把生活的小细节，留在这里。</p>
+      <div id="today" class="date"></div>
+    </section>
+
+    <section class="form">
+      <label for="weather">☀️ 今天的天气是？</label>
+      <input id="weather" placeholder="例如：晴天，温度 22°C">
+
+      <label for="person">♡ 今天遇到的第一个人是谁？</label>
+      <input id="person" placeholder="例如：早上遇见的同事">
+
+      <label for="color">🎨 对方的衣服是什么颜色？</label>
+      <input id="color" placeholder="例如：浅蓝色">
+
+      <label for="note">🌱 今天还有什么想记录的？</label>
+      <textarea id="note" rows="3"
+        placeholder="写下一件今天值得记住的小事……"></textarea>
+    </section>
+
+    <footer>
+      <span>♡ 每一个平凡的日子都值得记录</span>
+      <span id="status">自动保存</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
